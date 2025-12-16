@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form with Action Button</title>
+</head>
+<body>
+
+<h2>Sample Form</h2>
+
+<!-- Name input -->
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name"><br><br>
+
+<!-- Email input -->
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+
+<!-- Action button -->
+<button type="button" onclick="showData()">Submit</button>
+
+<!-- Placeholder to show result -->
+<p id="result"></p>
+
+<script>
+    function showData() {
+        // get values from inputs
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const age = document.getElementById("age").value;
+
+        // show them in result paragraph
+        document.getElementById("result").innerText =
+            `Hello ${name}, your email is ${email} and you are ${age} years old.`;
+    }
+</script>
+
+</body>
+</html>
