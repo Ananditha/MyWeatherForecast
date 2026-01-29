@@ -28,3 +28,10 @@ Users can:
 git clone https://github.com/Ananditha/MyWeatherForecast.git
 cd MyWeatherForecast
 
+## For Reviewers
+This repository demonstrates:
+- My Python coding practices
+- Problem-solving approach
+- Use of real-world data
+- Version control discipline
+
